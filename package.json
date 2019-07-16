@@ -15,13 +15,13 @@
     "es6-promise": "^4.2.5",
     "iview": "^3.1.5",
     "vue": "^2.5.2",
+    {{#vueRouter}}
     "vue-router": "^3.0.1"
+    {{/vueRouter}}
   },
   "devDependencies": {
-    {{#if styleLoader==='less'}}
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
-    {{/if}}
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^8.2.1",
